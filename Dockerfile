@@ -13,7 +13,9 @@ RUN npm install
 # RUN npm ci --only=production
 
 # Bundle app source
-COPY . .
+COPY *.js .
+
+ONBUILD COPY *.txt .
 
 USER 0
 
