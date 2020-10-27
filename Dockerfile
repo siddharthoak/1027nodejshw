@@ -15,6 +15,7 @@ RUN npm install
 # Bundle app source
 COPY *.js .
 
+ONBUILD COPY child.js .
 ONBUILD COPY *.txt .
 
 USER 0
