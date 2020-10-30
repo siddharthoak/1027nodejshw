@@ -20,5 +20,5 @@ ONBUILD COPY *.txt .
 
 USER 0
 
-EXPOSE 80
+EXPOSE 8080
 CMD [ "node", "index.js" ]
