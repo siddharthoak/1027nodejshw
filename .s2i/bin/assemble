@@ -2,6 +2,8 @@
 
 echo "@@@@@@@@@@@@@@@@@@@@@   Making pre-invocation changes...  @@@@@@@@@@@@@@@@@@@@@@@@@@"
 rc=$?
+/usr/libexec/s2i/assemble
+
 if [ $rc -eq 0 ]; then
 
 echo "@@@@@@@@@@@@@@@@@@@@@   Making post-invocation changes...  @@@@@@@@@@@@@@@@@@@@@@@@@@"
