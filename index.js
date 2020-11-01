@@ -1,12 +1,12 @@
 var http = require('http');
 
-const PORT = 80;
+const PORT = 8080;
 const HOST = '0.0.0.0';
 
 var server = http.createServer(function(request, response) {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello World from parent !");
+    response.end("Hello World from parent nodejs repo!");
 
 });
 
