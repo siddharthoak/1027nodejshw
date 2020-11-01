@@ -37,8 +37,8 @@ mv /tmp/src/* ./
 
 echo "@@@@@@@@@@@@@@@@@@@ "
 DATE=`date "+%b %d, %Y @ %H:%M %p"`
-echo "---> Updating index page"
-echo "Updated index to add Page built on $DATE" >> ./index.js
+# echo "---> Updating index page"
+# echo "Updated index to add Page built on $DATE" >> ./index.js
 
 echo "@@@@@@@@@@@@@@@@@@@ "
 
